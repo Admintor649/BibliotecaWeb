@@ -128,6 +128,7 @@ footer{
     width: 33%;
     height: 220px;
     float: left;
+    background-color: deeppink;
 }
 
 .caja2{
@@ -169,23 +170,27 @@ footer{
 }
 
 .caja_centro1{
-    width: 50%;
+    width: 49%;
     height: 120px;
     background-color: darkgoldenrod;
+    border: 1px solid black;
     float: left;
    }
 
 .caja_centro2{
-    width: 50%;
+    width:  49%;
     height: 120px;
     background-color: rgb(50, 34, 145);
+    border: 1px solid black;
     float: left;
 }
 
-.caja_final{
-    width: 99%;
-    height: 29px;
-    background-color: rgb(179, 33, 65);
+.caja_baja{
+    width: 100%;
+    height: 37px;
+    background-color: forestgreen;
+    border: 1px solid black;
+    float: left;
 }
 
 h4{
