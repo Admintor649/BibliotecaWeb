@@ -1,0 +1,203 @@
+/*parte principal*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:crimson;
+}
+.estilo_titulo{
+
+    font-size: 35px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*footer*/
+.caja_logo{
+    width: 50%; 
+    height: 140px; 
+    float: left; 
+    position: relative;
+
+    
+}
+
+div img{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caja_titulo{
+    background-color: lightsteelblue;
+    width: 50%; 
+    height: 140px; 
+    float: left; 
+    background-color: white;
+    position: relative;
+}
+
+div h1{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+/*estilos del main*/
+#formulario{
+    background-color:white;
+    color:black;
+    margin-left: 30%;
+    width: 40%;
+    margin-right: 30%;
+}
+#formulario_titulo{
+    color:black;
+    text-align: center;
+}
+
+label{
+    display:inline-block;
+    width: 30%;
+ 
+}
+
+input, select{
+    width: 68%;
+}
+
+.boton_formulario{
+    width: 49%;
+    height: 35px;
+    background-color: white;
+    border-color: orangered;
+    color:black;
+}
+
+.boton_formulario:hover{
+    color: orangered;
+}
+
+
+/*menu*/
+nav{
+    text-align: center;
+
+}
+
+li{
+    display:inline-block;
+    width: 15%;
+    height: 35px;
+    background-color: orangered;
+    padding-top: 10px;   
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+li a:hover{
+    color:dodgerblue;
+}
+
+/*tabla*/
+table{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid #000;
+}
+
+th, td{
+    border: 1px solid #000;
+}
+/*fin tabla*/
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: aquamarine;
+}
+
+.caja1{
+    width: 33%;
+    height: 220px;
+    float: left;
+}
+
+.caja2{
+    width: 33%;
+    height: 220px;
+    background-color:rgb(94, 151, 238);
+    float: left;
+}
+
+.caja3{
+    width: 33%;
+    height: 220px;
+    background-color:rgb(59, 228, 101);
+    float: left;
+}
+
+/*SubCajas*/
+
+.caja_superior{
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.caja_superior1{
+    width: 79%;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+
+}
+
+.caja_superior2{
+    width: 20%;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+
+}
+
+.caja_centro1{
+    width: 50%;
+    height: 120px;
+    background-color: darkgoldenrod;
+    float: left;
+   }
+
+.caja_centro2{
+    width: 50%;
+    height: 120px;
+    background-color: rgb(50, 34, 145);
+    float: left;
+}
+
+.caja_final{
+    width: 99%;
+    height: 29px;
+    background-color: rgb(179, 33, 65);
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+
+/*fin footer*/
+
+/*responsibe web designe*/
+/*celulares*/
